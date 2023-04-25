@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: rgb(206, 142, 58);
+}
+
+.toggle-body-theme {
+  background: rgb(255, 213, 158);
+}
+
+.App {
+  width: 900px;
+  height: 100vh;
+
+  background: rgb(206, 142, 58);
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle-chat-app {
+  background: rgb(255, 213, 158);
+}
+
+.theme-btn {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+
+  z-index: 2;
+}
